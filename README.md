@@ -9,32 +9,76 @@ For a detailed explanation of methods, findings, and future directions, please r
 
 - [Inforgraphic](https://github.com/hamzasalahds/bridge-the-gap/blob/main/Bridge%20the%20Graph%20-%20Inforgraphic.pdf)
 
-**Project Overview**
+**Overview**
 
-This project examines how high childcare costs limit mothers’ participation and advancement in professional employment in the U.S. Using data from 2008–2018, it analyzes regional disparities in childcare affordability and its economic impact on women’s workforce outcomes.
+The Bridge the Gap Initiative is a data visualization and analysis project designed to highlight gender disparities in the U.S. workforce, with a focus on mothers and women navigating professional employment challenges. The project visualizes wage gaps, unemployment rates, and occupational trends through a dynamic Power BI dashboard and a supporting infographic.
 
 **Key Insights**
-- Childcare costs rose about 15% nationally, disproportionately affecting mothers’ employment rates.
+Median Earnings Disparity:
 
-- Women’s median earnings remain significantly lower than men’s, with mothers concentrated in lower-paying jobs.
+- Males: $33.1K
 
-- High childcare costs correlate with decreased workforce participation among mothers.
+- Females: $21.6K
 
-**Recommendations**
-- Expand subsidized childcare programs, especially in high-cost areas.
+- Combined Average: $27.1K
 
-- Encourage employer-supported childcare solutions.
+- Women consistently earn ~30% less than men from 2008 to 2018.
 
-- Invest in career training programs to support upward mobility for mothers.
+Unemployment Rates (Age 20-65):
 
-**Tools & Methods**
-- Data cleaning and analysis with Excel and Python (Pandas, Matplotlib, Seaborn)
+- Males: 7.3%
 
-- Visualizations and dashboards created in Tableau
+- Females: 6.48%
 
-- Statistical methods include correlation and comparative analysis
+- Combined: 6.9%
 
-**Ethical Note**
-- All data is aggregated and anonymized to protect privacy. The analysis considers gender and racial equity throughout.
+Employment in Sales & Office Occupations:
 
-- For a detailed explanation of methods, findings, and future directions, please refer to the full research paper.
+- Females: 32.1%
+
+- Males: 13.7%
+
+- Combined: 22.2%
+
+- Women are significantly overrepresented in these roles compared to men.
+
+**Data Sources**
+Primary: National Database of Child Care Prices (NDCCP), 2008–2018
+
+Dashboard Features
+- Median earnings trends by gender over time (2008–2018)
+
+- Unemployment rates by gender
+
+- Gender distribution in sales and office occupations
+
+- Filterable by gender and other demographics (future enhancement)
+
+- The dashboard and infographic are created using Power BI Desktop for interactivity and visual storytelling.
+
+**Methodology**
+- Data cleaning performed in Excel
+
+Visualization and analysis using:
+
+- Power BI for dashboards
+
+- Descriptive statistics and comparative analysis between genders
+
+- Focused exclusively on publicly available, county-aggregated data.
+
+**Stakeholders**
+- Working mothers seeking professional growth
+
+- Policy makers
+
+- Nonprofit organizations advocating for gender equity
+
+- Workforce development agencies
+
+**Future Enhancements**
+- Integrate post-2018 data to account for pandemic impacts
+
+- Incorporate direct childcare cost data into the visualizations
+
+- Add regional filters for more localized insights
